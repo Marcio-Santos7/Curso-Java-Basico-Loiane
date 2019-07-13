@@ -6,8 +6,8 @@
 package com.mararts.cursojava.aula10;
 
 /**
- *
- * @author SONY VAIO
+ * Declarando variáveis em Java.
+ * @author Marcio Leandro
  */
 public class Variaveis {
     
@@ -20,8 +20,8 @@ public class Variaveis {
         
         idade = 27;
                 
-        System.out.println("Idade = "+ idade);
-        System.out.println("Nome é "+ nome);
+        System.out.println("Idade = " + idade);
+        System.out.println("Nome é " + nome);
         
         
     }
