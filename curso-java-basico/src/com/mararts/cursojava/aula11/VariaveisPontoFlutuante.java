@@ -6,8 +6,8 @@
 package com.mararts.cursojava.aula11;
 
 /**
- *
- * @author SONY VAIO
+ * Utilizando variáveis de ponto flutuante.
+ * @author Marcio Leandro
  */
 public class VariaveisPontoFlutuante {
     
