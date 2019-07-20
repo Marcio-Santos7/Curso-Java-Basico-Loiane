@@ -6,8 +6,8 @@
 package com.mararts.cursojava.aula13;
 
 /**
- *
- * @author SONY VAIO
+ * Utilizando operadores aritméticos.
+ * @author Marcio Leandro 
  */
 public class OperadoresAritmeticos {
     
