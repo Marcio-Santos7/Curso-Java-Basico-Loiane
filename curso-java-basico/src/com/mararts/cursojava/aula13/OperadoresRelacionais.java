@@ -6,8 +6,8 @@
 package com.mararts.cursojava.aula13;
 
 /**
- *
- * @author SONY VAIO
+ * Utilizando operadores relacionais.
+ * @author Marcio Leandro
  */
 public class OperadoresRelacionais {
     
