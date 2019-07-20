@@ -6,8 +6,8 @@
 package com.mararts.cursojava.aula13;
 
 /**
- *
- * @author SONY VAIO
+ * Demonstração de um curto circuito no Java.
+ * @author Marcio Leandro
  */
 public class CurtoCircuito {
     
