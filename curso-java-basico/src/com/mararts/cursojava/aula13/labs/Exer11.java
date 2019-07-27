@@ -8,8 +8,8 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Cálculo com números inteiros e real.
+ * @author Marcio Leandro
  */
 public class Exer11 {
     
@@ -29,22 +29,24 @@ public class Exer11 {
         
         System.out.println();
         
-        System.out.print("Digite 1 número real: ");
+        System.out.println("Digite 1 número real: ");
         num3 = scan.nextDouble();
     
         System.out.println();
         
         produto = (2 * num1) * (num2 / 2);
-        System.out.print("O produto do dobro do primeiro com metade do segundo é: " + produto);
+        System.out.println("O produto do dobro do primeiro com metade do "
+                + "segundo é: " + produto);
         
         System.out.println();
         
         soma = (3 * num1) + (num3);
-        System.out.print("A soma do triplo do primeiro com o terceiro é: " + soma);
+        System.out.println("A soma do triplo do primeiro com o terceiro é: " 
+                + soma);
         
         System.out.println();
         
         cubo = Math.pow(num3, 3);
-        System.out.print("O terceiro elevado ao cubo: " + cubo);
+        System.out.println("O terceiro elevado ao cubo: " + cubo);
     }
 }
