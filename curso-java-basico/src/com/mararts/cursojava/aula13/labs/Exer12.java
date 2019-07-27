@@ -8,8 +8,8 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Cálculo do peso ideal.
+ * @author Marcio Leandro
  */
 public class Exer12 {
     public static void main(String[] args)
