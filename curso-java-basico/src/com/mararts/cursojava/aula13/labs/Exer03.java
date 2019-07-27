@@ -8,8 +8,8 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Fazendo a soma de dois números inteiros lidos do teclado.
+ * @author Marcio Leandro 
  */
 public class Exer03 {
     
