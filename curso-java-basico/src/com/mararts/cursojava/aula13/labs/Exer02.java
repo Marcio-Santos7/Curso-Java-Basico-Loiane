@@ -8,8 +8,8 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Utilização do Scanner para obter valores do teclado.
+ * @author Marcio Leandro
  */
 public class Exer02 {
     
@@ -17,7 +17,7 @@ public class Exer02 {
     
         Scanner scan = new Scanner (System.in);
         
-        System.out.println("Entre com um número: ");
+        System.out.println("Entre com um número inteiro: ");
         
         int numero = scan.nextInt();
         System.out.println("O número informado foi: " + numero);
