@@ -8,8 +8,8 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Lendo 4 notas e tirar a média entre elas.
+ * @author Marcio Leandro
  */
 public class Exer04 {
     
