@@ -8,8 +8,9 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Cálculo do salário bruto, INSS, sindicato, IR, total de descontos e salário 
+ * líquido.
+ * @author Marcio Leandro
  */
 public class Exer13 {
     public static void main(String[] args)
