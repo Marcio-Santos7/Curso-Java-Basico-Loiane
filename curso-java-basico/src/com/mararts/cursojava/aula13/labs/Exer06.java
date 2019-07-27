@@ -8,21 +8,21 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Cálculo da área do círculo
+ * @author Marcio Leandro
  */
 public class Exer06 {
     
     public static void main(String[] args){
     
-        Scanner scan = new Scanner (System.in);
+        Scanner scan = new Scanner(System.in);
         
         System.out.println("Digite o raio do círculo: ");
-        double raio = scan.nextDouble();
+        double raioCirculo = scan.nextDouble();
         
-        double area = Math.PI  * Math.pow(raio, 2);
+        double areaCirculo = Math.PI  * Math.pow(raioCirculo, 2);
         
-        System.out.println("A área do círculo é igual a: " + area);
+        System.out.println("A área do círculo é igual a: " + areaCirculo);
         
     }
 }
