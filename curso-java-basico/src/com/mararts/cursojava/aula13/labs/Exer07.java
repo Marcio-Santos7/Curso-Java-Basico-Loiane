@@ -8,25 +8,25 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Cálculo da área do quadrado e o dobro da área
+ * @author Marcio Leandro
  */
 public class Exer07 {
     
     public static void main(String[] args){
     
-        Scanner scan = new Scanner (System.in);
+        Scanner scan = new Scanner(System.in);
         
         System.out.println("Digite a medida do lado do quadrado: ");
-        double lado = scan.nextDouble();
+        double ladoQuadrado = scan.nextDouble();
         
         //area = lado * lado
-        double area = Math.pow(lado, 2);
+        double areaQuadrado = Math.pow(ladoQuadrado, 2);
         
-        System.out.println("A área do quadrado é: " + area);
+        System.out.println("A área do quadrado é: " + areaQuadrado);
         
-        double areaqua = 2 * area;
+        double areaQuadradoDobro = 2 * areaQuadrado;
         
-        System.out.println("O dobro da área do quadrado é: " + areaqua);
+        System.out.println("O dobro da área do quadrado é: " + areaQuadradoDobro);
     }
 }
