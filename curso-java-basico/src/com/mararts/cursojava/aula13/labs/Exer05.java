@@ -8,8 +8,8 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Conversão de metros para centímetros
+ * @author Marcio Leandro
  */
 public class Exer05 {
     
@@ -18,10 +18,11 @@ public class Exer05 {
         Scanner scan = new Scanner (System.in);
     
         System.out.println("Entre com a medida em metros: ");
-        double medidaMet = scan.nextDouble();
+        double medidaMetro = scan.nextDouble();
         
         // 1m = 100cm
-        double medidaCent = medidaMet*100;
-        System.out.println("A medida em centímetros é: " + medidaCent + " cm");
+        double medidaCentimetro = medidaMetro*100;
+        System.out.println("A medida em centímetros é: " + 
+                medidaCentimetro + " cm");
     }
 }
