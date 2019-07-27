@@ -8,20 +8,21 @@ package com.mararts.cursojava.aula13.labs;
 import java.util.Scanner;
 
 /**
- *
- * @author SONY VAIO
+ * Conversão de temperatura Celsius para Farenheit.
+ * @author Marcio Leandro
  */
 public class Exer10 {
     
     public static void main(String[] args){
     
-        Scanner scan = new Scanner (System.in);
+        Scanner scan = new Scanner(System.in);
         
         System.out.println("Digite a temperatura em graus celsius: ");
-        double tempCel = scan.nextDouble();
+        double tempCelsius = scan.nextDouble();
         
-        double tempFar = (((9 * tempCel)+160))/5;
+        double tempFarenheit = (((9 * tempCelsius)+160))/5;
         
-        System.out.println("A temperatura " + tempCel + "C em Farenheit é igual a " + tempFar + "F");
+        System.out.println("A temperatura " + tempCelsius + 
+                "C em Farenheit é igual a " + tempFarenheit + "F");
     }
 }
